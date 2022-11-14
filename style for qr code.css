@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+  }
+.container{
+    background-color: hsl(212, 45%, 89%);
+    display: grid;
+    justify-content:space-around;
+    margin:0px 100px ;
+}
+div .maincomponent{
+    width: 250px;
+    background-color:  hsl(0, 0%, 100%);
+    display: grid;
+    margin:100px;
+    padding:15px ;
+    border-radius: 12px;
+}
+ h2{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+h5{
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
+@media screen and(max-width=375px){ 
+    .container{
+    margin: 0px;
+}
+    
+}
